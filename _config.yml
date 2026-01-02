@@ -1,0 +1,9 @@
+title: "Emil Paul"
+description: "Portfolio + projects"
+theme: minima
+
+header_pages:
+  - index.md
+  - about.md
+  - links.md
+  - contact.md
