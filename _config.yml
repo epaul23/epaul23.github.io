@@ -6,6 +6,8 @@ plugins:
 
 header_pages:
   - index.md
+  - projects.md
   - about.md
   - links.md
   - contact.md
+  
