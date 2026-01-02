@@ -13,7 +13,7 @@ body{
   color: var(--text);
   background:
     linear-gradient(180deg, rgba(0,0,0,.65), rgba(0,0,0,.82)),
-    url("/assets/bg.jpg") center/cover fixed no-repeat;
+    url("/assets/bg.png") center/cover fixed no-repeat;
 }
 
 .container{ max-width: 980px; margin: 0 auto; padding: 32px 18px 60px; }
