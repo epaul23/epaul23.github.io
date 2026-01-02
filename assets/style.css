@@ -70,10 +70,14 @@ li { margin: 6px 0; }
 }
 
 .divider {
-  margin: 10px 0;
-  color: #9ca3af;
-  letter-spacing: 2px;
+  width: 100%;
+  max-width: 520px;             /* controls max length */
+  margin: 12px auto;
+  border-top: 1px dashed #9ca3af;
+  opacity: 0.9;
 }
+
+
 
 .name {
   font-size: 40px;
