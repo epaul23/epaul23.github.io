@@ -54,3 +54,24 @@ h1, h2 {
 
 ul { margin: 8px 0 0 20px; }
 li { margin: 6px 0; }
+
+/* ===== additions for centered header ===== */
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.menu a {
+  margin: 0 8px;
+}
+
+.divider {
+  margin: 10px 0;
+  color: #9ca3af;
+  letter-spacing: 2px;
+}
