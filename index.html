@@ -1,47 +1,59 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Emil Paul</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
   <div class="container">
-
     <div class="nav">
-      <div class="left">
-        <span class="brand">Emil Paul</span>
+      <a class="brand" href="/">Emil Paul</a>
+      <div class="navlinks">
         <a href="/">Home</a>
         <a href="/projects.html">Projects</a>
+        <a href="/links.html">Links</a>
         <a href="/contact.html">Contact</a>
-
       </div>
-      <a href="https://github.com/epaul23" target="_blank">GitHub</a>
     </div>
 
-    <div class="hero">
-      <h1>Backend / Systems Developer</h1>
-      <div class="subtitle">
-        I build scalable backend systems, applied ML projects, and clean dashboards.
+    <h1>Hi, I’m Emil.</h1>
+    <p class="subtitle">
+      I build scalable backend systems, applied ML projects, and clean data dashboards.
+      Based in Canada. Open to 2026 internships/co-ops.
+    </p>
+
+    <div class="section">
+      <h2>Featured</h2>
+
+      <div class="card">
+        <strong>ML Log Analytics Platform</strong><br/>
+        <span class="meta">Real-time ingestion → anomaly detection → incident dashboard.</span><br/>
+        <a href="https://github.com/epaul23/ml-log-analytics-platform" target="_blank" rel="noopener">Repo</a>
+        <!-- Add demo later: • <a href="DEMO_LINK" target="_blank" rel="noopener">Live demo</a> -->
       </div>
 
-      <div class="badges">
-        <span class="badge">Python</span>
-        <span class="badge">FastAPI</span>
-        <span class="badge">Docker</span>
-        <span class="badge">Cloud</span>
+      <div class="card">
+        <strong>Adaptive Rate Limiter</strong><br/>
+        <span class="meta">Smart API throttling with Redis + metrics + alerts.</span><br/>
+        <a href="https://github.com/epaul23/REPO_NAME" target="_blank" rel="noopener">Repo</a>
       </div>
-
-      <a class="btn" href="https://github.com/epaul23" target="_blank" rel="noopener">View GitHub</a>
-
     </div>
 
-    <div class="card">
-      <h2>Featured Project</h2>
-      <p>ML Log Analytics Platform — real-time log ingestion and anomaly detection.</p>
+    <div class="section">
+      <h2>Now</h2>
+      <div class="card">
+        <span class="meta">
+          Currently building production-style projects with clear architecture, tests, and deployment.
+        </span>
+      </div>
     </div>
 
+    <div class="footer">
+      <div>GitHub: <a href="https://github.com/epaul23" target="_blank" rel="noopener">epaul23</a></div>
+      <div>Resume: <a href="/resume.pdf" target="_blank">resume.pdf</a> (upload to repo root)</div>
+    </div>
   </div>
 </body>
 </html>
