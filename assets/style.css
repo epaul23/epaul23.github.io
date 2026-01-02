@@ -1,7 +1,7 @@
 body {
   background:
     linear-gradient(rgba(15, 20, 25, 0.85), rgba(15, 20, 25, 0.85)),
-    url("/assets/bg2.jpg") center / cover no-repeat fixed;
+    url("/assets/bg1.jpg") center / cover no-repeat fixed;
 
   color: #e5e7eb;
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
