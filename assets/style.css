@@ -76,14 +76,16 @@ li { margin: 6px 0; }
 }
 
 .name {
-  font-size: 32px;        /* makes it clearly bigger */
-  font-weight: 700;      /* bold but not aggressive */
-  letter-spacing: 0.5px; /* subtle polish */
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  line-height: 1.1;
 }
+
 
 .tagline {
   font-size: 16px;
-  color: #9ca3af;        /* softer, secondary */
-  margin-top: 4px;
+  color: #9ca3af;
+  margin-top: 6px;
 }
 
